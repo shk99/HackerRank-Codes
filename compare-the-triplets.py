@@ -13,7 +13,7 @@ def compareTriplets(a, b):
     scoreBob = 0
     array = []
 
-    for index in range(len(a)):
+    for index in range(len(a)):       #assuming that length of both a,b is same
         if a[index] > b[index]:
             scoreAlice += 1  
         if a[index] == b[index]:
