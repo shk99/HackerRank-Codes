@@ -12,7 +12,6 @@ def compareTriplets(a, b):
     scoreAlice = 0
     scoreBob = 0
     array = []
-    bob = []
 
     for index in range(len(a)):
         if a[index] > b[index]:
